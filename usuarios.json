@@ -1,0 +1,200 @@
+{
+    "5235798454": {
+        "credits": 0,
+        "pending_payments": [],
+        "processed_payments": [
+            {
+                "accounts_info": null,
+                "acquirer_reconciliation": [],
+                "additional_info": {
+                    "bank_info": {
+                        "is_same_bank_account_owner": false
+                    },
+                    "tracking_id": "platform:v1-whitelabel,so:ALL,type:N/A,security:none"
+                },
+                "authorization_code": null,
+                "binary_mode": false,
+                "brand_id": null,
+                "build_version": "3.113.0-rc-2",
+                "call_for_authorize_id": null,
+                "callback_url": null,
+                "captured": true,
+                "card": {},
+                "charges_details": [
+                    {
+                        "accounts": {
+                            "from": "collector",
+                            "to": "mp"
+                        },
+                        "amounts": {
+                            "original": 0.01,
+                            "refunded": 0
+                        },
+                        "client_id": 0,
+                        "date_created": "2025-07-02T08:26:56.000-04:00",
+                        "id": "117090609420-001",
+                        "last_updated": "2025-07-02T08:26:56.000-04:00",
+                        "metadata": {
+                            "reason": "",
+                            "source": "rule-engine"
+                        },
+                        "name": "mercadopago_fee",
+                        "refund_charges": [],
+                        "reserve_id": null,
+                        "type": "fee"
+                    }
+                ],
+                "charges_execution_info": {
+                    "internal_execution": {
+                        "date": "2025-07-02T08:26:56.202-04:00",
+                        "execution_id": "01JZ5HNEREGXSVRYYC3Y24DPFN"
+                    }
+                },
+                "collector_id": 1029050718,
+                "corporation_id": null,
+                "counter_currency": null,
+                "coupon_amount": 0,
+                "currency_id": "BRL",
+                "date_approved": "2025-07-02T08:27:40.000-04:00",
+                "date_created": "2025-07-02T08:26:56.000-04:00",
+                "date_last_updated": "2025-07-02T08:27:43.000-04:00",
+                "date_of_expiration": "2025-07-03T08:26:55.000-04:00",
+                "deduction_schema": null,
+                "description": "Compra de 1 cr\u00e9ditos RotaR\u00e1pida",
+                "differential_pricing_id": null,
+                "external_reference": null,
+                "fee_details": [
+                    {
+                        "amount": 0.01,
+                        "fee_payer": "collector",
+                        "type": "mercadopago_fee"
+                    }
+                ],
+                "financing_group": null,
+                "id": 117090609420,
+                "installments": 1,
+                "integrator_id": null,
+                "issuer_id": "12501",
+                "live_mode": true,
+                "marketplace_owner": null,
+                "merchant_account_id": null,
+                "merchant_number": null,
+                "metadata": {},
+                "money_release_date": "2025-07-02T08:27:40.000-04:00",
+                "money_release_schema": null,
+                "money_release_status": "released",
+                "notification_url": null,
+                "operation_type": "regular_payment",
+                "order": {},
+                "payer": {
+                    "email": "XXXXXXXXXXX",
+                    "entity_type": null,
+                    "first_name": null,
+                    "id": "2527702527",
+                    "identification": {
+                        "number": null,
+                        "type": null
+                    },
+                    "last_name": null,
+                    "operator_id": null,
+                    "phone": {
+                        "number": null,
+                        "extension": null,
+                        "area_code": null
+                    },
+                    "type": null
+                },
+                "payment_method": {
+                    "id": "pix",
+                    "issuer_id": "12501",
+                    "type": "bank_transfer"
+                },
+                "payment_method_id": "pix",
+                "payment_type_id": "bank_transfer",
+                "platform_id": null,
+                "point_of_interaction": {
+                    "application_data": {
+                        "name": null,
+                        "operating_system": null,
+                        "version": null
+                    },
+                    "business_info": {
+                        "branch": "Merchant Services",
+                        "sub_unit": "default",
+                        "unit": "online_payments"
+                    },
+                    "location": {
+                        "source": null,
+                        "state_id": null
+                    },
+                    "sub_type": "INTER_PSP",
+                    "transaction_data": {
+                        "bank_info": {
+                            "collector": {
+                                "account_holder_name": "Israel de Almeida Pereira",
+                                "account_id": 78517724568,
+                                "long_name": "MERCADO PAGO INSTITUI\u00c7\u00c3O DE PAGAMENTO LTDA.",
+                                "transfer_account_id": null
+                            },
+                            "is_same_bank_account_owner": false,
+                            "origin_bank_id": null,
+                            "origin_wallet_id": null,
+                            "payer": {
+                                "account_id": 5237033,
+                                "branch": "7615",
+                                "external_account_id": null,
+                                "id": null,
+                                "identification": {},
+                                "is_end_consumer": null,
+                                "long_name": "BANCO BRADESCO S.A."
+                            }
+                        },
+                        "bank_transfer_id": 116466140601,
+                        "e2e_id": null,
+                        "financial_institution": 1,
+                        "infringement_notification": {
+                            "status": null,
+                            "type": null
+                        },
+                        "merchant_category_code": null,
+                        "qr_code": "00020126360014br.gov.bcb.pix0114+551196552340252040000530398654041.005802BR5922DEISRAEL202112011647156009Sao Paulo62250521mpqrinter1170906094206304F67B",
+                        "qr_code_base64": "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",
+                        "ticket_url": "https://www.mercadopago.com.br/payments/117090609420/ticket?caller_id=2527702527&hash=3bbaa835-8d18-49fe-aa89-eb397ed81e61",
+                        "transaction_id": "PIXE60746948202507021227M7615bBqUMQ"
+                    },
+                    "type": "OPENPLATFORM"
+                },
+                "pos_id": null,
+                "processing_mode": "aggregator",
+                "refunds": [],
+                "release_info": null,
+                "shipping_amount": 0,
+                "sponsor_id": null,
+                "statement_descriptor": null,
+                "status": "approved",
+                "status_detail": "accredited",
+                "store_id": null,
+                "tags": null,
+                "taxes_amount": 0,
+                "transaction_amount": 1,
+                "transaction_amount_refunded": 0,
+                "transaction_details": {
+                    "acquirer_reference": null,
+                    "bank_transfer_id": 116466140601,
+                    "external_resource_url": null,
+                    "financial_institution": "1",
+                    "installment_amount": 0,
+                    "net_received_amount": 0.99,
+                    "overpaid_amount": 0,
+                    "payable_deferral_period": null,
+                    "payment_method_reference_id": null,
+                    "total_paid_amount": 1,
+                    "transaction_id": "PIXE60746948202507021227M7615bBqUMQ"
+                },
+                "processed_at": "2025-07-02T09:28:01.152717",
+                "status_in_bot": "approved"
+            }
+        ],
+        "failed_payments": []
+    }
+}
