@@ -6,7 +6,7 @@ import tempfile
 import requests
 from unidecode import unidecode
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters, ConversationHandler, CallbackQueryHandler
+from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters, ConversationHandler, CallbackQueryHandler
 import json
 import uuid # Importado para gerar chaves de idempotência (X-Idempotency-Key)
 import base64 # Importado para decodificar a imagem do QR Code
@@ -621,7 +621,7 @@ async def saldo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Função principal para iniciar o bot."""
     BOT_TOKEN = "7569642602:AAGwxJqH5FSLYZmSN_MaJTtspsjbqZMkCYI" 
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    app = Application.builder().token(BOT_TOKEN).build()
 
     # Conversation handler para cadastro e compra de créditos
     cadastro_handler = ConversationHandler(
